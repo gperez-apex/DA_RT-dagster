@@ -1,0 +1,7 @@
+data/
+.venv*/
+*.json
+*.png
+*__pycache__*
+/slides/
+.env

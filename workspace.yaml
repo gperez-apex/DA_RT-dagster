@@ -1,0 +1,9 @@
+load_from:
+  - python_module:
+      module_name: slides.definitions
+      working_directory: dagster_slides
+      executable_path: dagster_slides/.venvdos/Scripts/python.exe
+  - python_module:
+      module_name: demo.definitions
+      working_directory: dagster_demo
+      executable_path: dagster_demo/.venv/Scripts/python.exe
